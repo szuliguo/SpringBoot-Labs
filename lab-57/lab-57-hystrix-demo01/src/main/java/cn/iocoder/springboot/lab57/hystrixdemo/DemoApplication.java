@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
+//开启Hystrix断路器功能
 public class DemoApplication {
 
     @Bean
